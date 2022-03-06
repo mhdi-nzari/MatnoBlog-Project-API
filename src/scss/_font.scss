@@ -1,0 +1,29 @@
+@font-face {
+  font-family: Estedad;
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+
+  src: local("Estedad"),
+    url("../font/woff2/Estedad-Medium.woff2") format("woff2"),
+    url("../font/ttf/Estedad-Medium.woff2") format("truetype");
+}
+@font-face {
+  font-family: Estedad;
+  font-display: swap;
+  font-style: normal;
+  font-weight: 500;
+
+  src: local("Estedad"),
+    url("../font/woff2/Estedad-Regular.woff2") format("woff2"),
+    url("../font/ttf/Estedad-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: Estedad;
+  font-display: swap;
+  font-style: bold;
+  font-weight: 600;
+
+  src: local("Estedad"), url("../font/woff2/Estedad-Bold.woff2") format("woff2"),
+    url("../font/ttf/Estedad-Bold.ttf") format("truetype");
+}

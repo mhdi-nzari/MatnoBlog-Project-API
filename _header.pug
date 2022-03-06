@@ -1,0 +1,55 @@
+
+header.header--page
+     .container 
+          .row 
+               // humburger menu
+               .col-md-2.col-sm-2.col-2.d-lg-none.flex-center-right
+                    a.header--page--menu__link(href="javascript:void(0)")
+                         img.header--page--menu__link__img.mx-auto(src="./src/img/menu.svg", alt="humburger-menu") 
+               .col-lg-3.col-md-6.col-8
+                    .logoBox 
+                         img.logoBox__logo.h-5(src="./src/img/logo.svg", alt="logo")
+                         p.logoBox__title Matno Blog
+               .col-lg-6.d-lg-flex.d-none.flex-center-right
+                    nav.navbar 
+                         ul.navbar--list.pr-1
+                              a(href="javascript:void(0)")
+                                   li.navbar--list__item زیرساخت
+                         
+                              a(href="javascript:void(0)") 
+                                   li.navbar--list__item برنامه نویس
+                         
+                              a(href="javascript:void(0)") 
+                                   li.navbar--list__item  طراحی
+               .col-sm-2.col-2.d-md-none.flex-center-left
+                    a.header--page--menu__search(href="javascript:void(0)")
+                         img.header--page--menu__search__img(src="./src/img/search.svg", alt="")                    
+               .col-12.d-md-none.p-0.mh-100#column     
+                    .input--box.hide
+                         input.input--box--item(type="text", name="" placeholder="جست و ‎جو").
+                         a.input--box__img.mx-2(href="javascript:void(0)") 
+                              img(src="./src/img/search.svg", alt="") 
+                         a.input--box__remove(href="javascript:void(0)") 
+                              img(src="./src/img/close.svg", alt="")                         
+               .col-lg-3.col-md-4.d-md-flex.d-none.flex-center
+                    .input--search 
+                         input.input--search--item(type="text", name="" placeholder="جست و ‎جو").
+                         a.input--search__img(href="javascript:void(0)") 
+                              img(src="./src/img/search.svg", alt="") 
+               
+                    
+
+          .divider.d-md-none.d-block.mt-3
+
+nav#navigation.hide
+     .navigation--contant.p-2
+          .navigation--contant--btn.mb-3
+               img.h-3.ml-1(src="./src/img/close.svg", alt="close")
+               a.navigation--contantt--btn__close(href="javascript:void(0)")  بستن
+          ul.navigation--contant--nav
+               a(href="javascript:void(0)")
+                    li.active.navigation--contant--nav__item  زیرساخت
+               a(href="javascript:void(0)")
+                    li.navigation--contant--nav__item  برنامه نویس
+               a(href="javascript:void(0)")
+                    li.navigation--contant--nav__item طراحی
